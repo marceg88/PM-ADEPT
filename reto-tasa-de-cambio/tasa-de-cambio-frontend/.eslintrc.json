@@ -18,6 +18,8 @@
   },
   "plugins": ["react"],
   "rules": {
+    "react/jsx-filename-extension": [0],
+    "import/extensions": "off",
     "prettier/prettier": "warn",
     "eqeqeq": "error",
     "semi": ["off", "never"],
